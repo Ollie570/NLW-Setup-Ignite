@@ -1,16 +1,16 @@
 import './styles/global.css';
-import { Habit } from "./components/habit"
+//import { Habit } from "./components/habit"
 
-function App() {
+export function App() {
   return (
-    <div>
-      <Habit completed = {3}/>
-      <Habit completed = {10}/>
+    <div className='w-screen h-screen flex justify-center items-center'>
+      <div className='w-full max-w-5xl px-6 flex-col gap-16'>
+
+      </div>
+      
     </div>
   )
 }
-
-export default App
 
 //Componenete: reaproveitar ou isolar!
 //Propriedade: informação enviada para modificar um componenete visual ou comportamento
